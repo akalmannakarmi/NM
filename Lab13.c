@@ -30,7 +30,7 @@ for(i=1;i<=n;i++)
     y=y+(m1+4*m4+m3)*(h/6);
 printf("\n %d \t %f \t %f \t",i,x,y);
 }
-printf("\n The value of y at x =%f is %f",x,y);
-getch();
+printf("\n The value of y at x =%f is %f\n",x,y);
+// getch();
 return 0;
 }

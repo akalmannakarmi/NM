@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+// #include<conio.h>
 #include<math.h>
 
 int main()
@@ -29,7 +29,7 @@ int main()
     printf("\n Enter the functional value at 2nd pivotal point:\n");
     scanf("%f",&f2);
     z=f1+(a-x1)*((f2-f1)/(x2-x1));
-    printf("\n The required functional value is = %f",z);
-    getch();
+    printf("\n The required functional value is = %f\n",z);
+    // getch();
     return 0;
 }

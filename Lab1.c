@@ -1,6 +1,6 @@
 #include<stdio.h>
-#include<conio.h>
 #include<math.h>
+// #include<conio.h>
 int main()
 {
     float a,b,c,r1,r2,dis,rp,ip;
@@ -32,6 +32,6 @@ int main()
         printf("r2=%f -i %f \n",rp,ip);
 
     }
-    getch();
+    // getch();
     return 0;
 }

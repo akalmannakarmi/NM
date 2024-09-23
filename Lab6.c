@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+// #include<conio.h>
 #include<math.h>
 
 int main()
@@ -32,8 +32,8 @@ int main()
         }
         sum=sum+f[i]*product;
     }
-    printf("sum=%f",sum);
-    getch();
+    printf("sum=%f\n",sum);
+    // getch();
     return 0;
 }
 

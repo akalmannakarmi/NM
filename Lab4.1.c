@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+// #include<conio.h>
 #include<math.h>
 float f(float i)
 {
@@ -30,8 +30,8 @@ int main()
     }
     while(error>0.000002);
     printf("\n The root of the given equation = %f",x2);
-    printf("\n The functional value of the given equation=%f",f(x2));
-	getch();
+    printf("\n The functional value of the given equation=%f\n",f(x2));
+	// getch();
 	return 0;
 
 }

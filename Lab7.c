@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+// #include<conio.h>
 #include<math.h>
 
 int main()
@@ -36,7 +36,7 @@ int main()
      printf("\n Enter the value of x to find y:");
      scanf("%f",&x1);
      y1=a1*x1+a0;
-     printf("\n The value of y when x is %f is=%f",x1,y1);
-     getch();
+     printf("\n The value of y when x is %f is=%f\n",x1,y1);
+    //  getch();
     return 0;
 }

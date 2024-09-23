@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+// #include<conio.h>
 #include<math.h>
 float f (float i)
 {
@@ -21,7 +21,7 @@ int main ()
 	}
 	printf("\n Enter the initial guess value(x1,x0):\n");
 	scanf("%f%f",&x1,&x0);
-	printf("\n i\t \t  x0\t\t  f(x0)\t  x1\t\t  fd(x0)\t\t  error");
+	printf("\n i\t \t  x0\t\t  f(x0)\t\t  x1\t\t  fd(x0)\t  error");
 	i=1.0;
 		if(fd(x0)==0)
 		{
@@ -39,7 +39,7 @@ int main ()
 	            printf("\n The root of the given equation = %f",x1);
 
 		}
-		printf("\n The functional value of the given equation=%f",f(x1));
-		 getch();
+		printf("\n The functional value of the given equation=%f\n",f(x1));
+		//  getch();
 	            return 0;
 	}
